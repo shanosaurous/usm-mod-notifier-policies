@@ -2,37 +2,38 @@
 
 **Last updated:** November 19, 2026
 
-## 1. Overview
+## 1. Purpose
 
-USM Mod Notifier is a Reddit Devvit application designed to assist the r/USMobile moderation team by sending notifications about new Reddit posts, comments, and engagement milestones to designated Slack channels.
+USM Mod Notifier is an internal moderation tool designed for r/USMobile.
 
-This Privacy Policy explains what information the application processes, how it is used, and where it is shared.
+Reddit's native notification system doesn't always provide a convenient way to track every new post, comment, or active discussion in real time.
 
-## 2. Information We Process
+The purpose of this application is to provide timely Slack notifications so our moderation team can stay informed, respond to community discussions, and address user concerns more efficiently.
 
-The application may process the following Reddit information:
+## 2. How the Application Works
 
-- Post titles, bodies, IDs, URLs, usernames, and timestamps.
-- Comment text, IDs, URLs, usernames, and timestamps.
-- Parent comment information when users reply to existing comments.
-- Post engagement information, including comment counts.
-- Technical information required for notification delivery and troubleshooting.
+The application monitors new posts, comments, and engagement activity within r/USMobile.
 
-## 3. How Information Is Used
+Relevant notifications are automatically forwarded to designated Slack channels accessible to the moderation team.
 
-This information is used to:
+Notifications may include Reddit post titles, comments, usernames, timestamps, and links to the original discussions.
 
-- Notify the moderation team about new posts and comments.
-- Identify Trending, Hot, and Viral discussions.
-- Provide context for moderation and community support.
-- Track notification status and reduce repeated alerts.
+## 3. Information Handling
+
+The application is intended solely for moderation notifications and community support.
+
+Notifications are delivered through Slack and are subject to the receiving workspace's access controls and retention settings. Reddit Devvit is used for operational notification tracking.
 
 The application does not sell Reddit user information.
 
-## 4. Third-Party Services
+## 4. Privacy and Security
 
-USM Mod Notifier sends Reddit information to designated channels in a Slack workspace used by the moderation team.
+Slack notification credentials are configured securely. Access to notification channels is managed through the Slack workspace.
 
-Slack processes and stores these notifications according to the workspace's configuration and applicable Slack policies.
+## 5. Updates
 
-The application also uses Reddit Devvit's Redis storage for limited operational
+This policy may be updated as the application's functionality changes.
+
+## 6. Contact
+
+For questions regarding this application, contact: shayan.ali@usmobile.com
